@@ -6,7 +6,7 @@ DIstortion used :
 1 JPEG Compresion 
 2  Guassian  BLur
 3 Guassian Noise
-Usage 
+Usage  
 ptython image_ distortion.py path/to/ image /output+folder
 
 
