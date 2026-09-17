@@ -1,0 +1,10 @@
+run_id: conf_v1
+datasets: [mc2, vertebra-column, haberman, vehicle]
+methods: [base, rus, enn, tomek, smote, spe, ubag, obag, sbag, cost]
+base_classifiers: [decision_tree, logistic_regression]
+ensemble_size: 10
+n_folds: 5
+metrics: [auprc, macro_f1, balanced_accuracy]
+cell_timeout_seconds: 900
+random_state: 42
+output_csv: results/conf_v1.csv
